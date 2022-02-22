@@ -6,5 +6,13 @@ beforeEach(() => {
 })
 
 test('Logo renders on page', () => {
-  expect(screen.getByText(/critics vs. viewers/i)).toBeInTheDocument()
-});
+  expect(screen.getByRole('heading', {
+      name: /critics vs\. viewers/i
+    })).toBeInTheDocument()
+})
+
+test('Motto renders on page', () => {
+  expect(screen.getByRole('heading', {
+      name: /they hate it, you love it\./i
+    })).toBeInTheDocument()
+})

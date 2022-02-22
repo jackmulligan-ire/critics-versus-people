@@ -1,12 +1,12 @@
 import { render, screen } from '@testing-library/react';
-import Logo from './Logo';
+import Motto from './Motto';
 
 beforeEach(() => {
-    render(<Logo />)
+    render(<Motto />)
 })
 
-test('Logo renders on page', () => {
+test('Motto renders on page', () => {
     expect(screen.getByRole('heading', {
-        name: /critics vs\. viewers/i
+        name: /they hate it, you love it\./i
       })).toBeInTheDocument()
 })
