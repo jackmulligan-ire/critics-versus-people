@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
+import Logo from './components/Logo/Logo';
 
 function App() {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <main>
+      <Logo />
+    </main>
   );
 }
 
