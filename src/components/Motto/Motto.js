@@ -1,7 +1,7 @@
 import React from 'react';
 import { Row } from 'react-bootstrap';
 
-class Logo extends React.Component {
+class Motto extends React.Component {
     render() {
         return (
             <Row >
@@ -11,4 +11,4 @@ class Logo extends React.Component {
     }
 }
 
-export default Logo;
+export default Motto;
