@@ -1,9 +1,12 @@
 import React from 'react';
+import { Row } from 'react-bootstrap';
 
 class Logo extends React.Component {
     render() {
         return (
-            <h3>They hate it, you love it.</h3>
+            <Row >
+                <h3>They hate it, you love it.</h3>
+            </Row>
         )
     }
 }
