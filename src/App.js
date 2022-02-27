@@ -1,21 +1,17 @@
 import React from 'react';
 import './App.css';
-import Logo from './components/Logo/Logo';
-import Motto from './components/Motto/Motto';
-import SearchBar from './components/SearchBar/SearchBar';
+import InitialView from './components/InitialView/InitialView';
 import Footer from './components/Footer/Footer';
 
-function App() {
-  return (
-    <div id="content">
-      <main>
-        <Logo />
-        <SearchBar />
-        <Motto />
-      </main>
-      <Footer />
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <div id="content">
+        <InitialView />
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;
