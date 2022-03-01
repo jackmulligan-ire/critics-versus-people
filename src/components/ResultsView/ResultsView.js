@@ -13,7 +13,7 @@ class ResultsView extends React.Component {
                         <SearchBar />
                     </Row>
                     <Row id="title-row">
-                        
+                        <div>{this.props.data.title}</div>
                     </Row>
                     <Row id="review-row">
                         
