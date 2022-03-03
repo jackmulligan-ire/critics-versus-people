@@ -1,6 +1,7 @@
 import React from 'react';
 import SiteNavbar from '../Navbar/Navbar';
 import SearchBar from '../SearchBar/SearchBar';
+import MovieTitle from '../MovieTitle/MovieTitle';
 import { Container, Row, Col } from 'react-bootstrap';
 
 class ResultsView extends React.Component {
@@ -13,7 +14,7 @@ class ResultsView extends React.Component {
                         <SearchBar />
                     </Row>
                     <Row id="title-row">
-                        <div>{this.props.data.title}</div>
+                        <MovieTitle title={this.props.data.title} year={this.props.data.year} />
                     </Row>
                     <Row id="review-row">
                         
