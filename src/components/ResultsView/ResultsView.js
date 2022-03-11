@@ -3,6 +3,7 @@ import SiteNavbar from '../Navbar/Navbar';
 import SearchBar from '../SearchBar/SearchBar';
 import MovieTitle from '../MovieTitle/MovieTitle';
 import MovieRating from '../MovieRating/MovieRating';
+import MovieSummary from '../MovieSummary/MovieSummary';
 import { Container, Row, Col } from 'react-bootstrap';
 
 class ResultsView extends React.Component {
@@ -26,7 +27,13 @@ class ResultsView extends React.Component {
                         </Col>
                     </Row>
                     <Row id="info-row">
-                        
+                        <MovieSummary 
+                        plot={this.props.data.Plot} 
+                        director={this.props.data.Director}
+                        actors={this.props.data.Actors}
+                        imdbID={this.props.data.imdbID}
+                        poster={this.props.data.Poster}
+                        />
                     </Row>
                 </Container>
             </div>
