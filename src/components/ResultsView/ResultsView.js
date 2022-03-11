@@ -2,6 +2,7 @@ import React from 'react';
 import SiteNavbar from '../Navbar/Navbar';
 import SearchBar from '../SearchBar/SearchBar';
 import MovieTitle from '../MovieTitle/MovieTitle';
+import MovieRating from '../MovieRating/MovieRating';
 import { Container, Row, Col } from 'react-bootstrap';
 
 class ResultsView extends React.Component {
@@ -14,10 +15,15 @@ class ResultsView extends React.Component {
                         <SearchBar />
                     </Row>
                     <Row id="title-row">
-                        <MovieTitle title={this.props.data.title} year={this.props.data.year} />
+                        <MovieTitle title={this.props.data.Title} year={this.props.data.Year} />
                     </Row>
                     <Row id="review-row">
-                        
+                        <Col>
+                            <MovieRating reviewer="Critics" rating={this.props.data.Metascore} />
+                        </Col>
+                        <Col>
+                            <MovieRating reviewer="Viewers" rating={this.props.data.imdbRating} />
+                        </Col>
                     </Row>
                     <Row id="info-row">
                         
