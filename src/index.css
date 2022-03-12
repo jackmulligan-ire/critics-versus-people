@@ -1,0 +1,9 @@
+* {
+    font-family: 'Courier New', monospace;
+    background-color: black;
+    color: white;
+}
+
+a, a:hover{
+    color: white;
+}
