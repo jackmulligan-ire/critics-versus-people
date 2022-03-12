@@ -7,6 +7,7 @@ class SearchBar extends React.Component {
             <Row>
                 <Form>
                     <Form.Control 
+                    className="px-3 py-2"
                     type="text"
                     placeholder='Enter a movie'
                     aria-label='Enter a movie'
