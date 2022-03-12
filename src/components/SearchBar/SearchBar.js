@@ -11,9 +11,6 @@ class SearchBar extends React.Component {
                     placeholder='Enter a movie'
                     aria-label='Enter a movie'
                     />
-                    <Button 
-                    variant="primary"
-                    type="submit">Get the verdict</Button>
                 </Form>
             </Row>
         )

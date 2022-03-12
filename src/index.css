@@ -1,9 +1,38 @@
 * {
     font-family: 'Courier New', monospace;
-    background-color: black;
     color: white;
 }
+body{
+    
+    background-color: black;
+}
+
+body,#root, #content {
+    min-height: 100vh;
+}
+
+.container {
+    min-height: 80vh;
+}
+
 
 a, a:hover{
     color: white;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+form {
+    width: 525px;
+}
+
+.form-control {
+    min-width: 500px;
+    width: 100%;
 }
