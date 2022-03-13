@@ -3,7 +3,6 @@
     color: white;
 }
 body{
-    
     background-color: black;
 }
 
@@ -11,8 +10,17 @@ body,#root, #content {
     min-height: 94vh;
 }
 
+footer {
+    background-color: white;
+    height: 7vh;
+}
+
+footer > p, footer > p > a, footer > p > a:hover {
+    color: black
+}
+
 .container {
-    min-height: 85vh;
+    min-height: 88vh;
 }
 
 
