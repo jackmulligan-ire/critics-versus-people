@@ -12,7 +12,7 @@ class ResultsView extends React.Component {
             <div id="results-view">
                 <SiteNavbar />
                 <Container className="w-75 d-flex flex-column align-items-center">
-                    <Row id="search-row" className="w-100 d-flex justify-content-center my-3">
+                    <Row id="search-row-results" className="w-100 d-flex justify-content-center my-3">
                         <SearchBar />
                     </Row>
                     <MovieTitle title={this.props.data.Title} year={this.props.data.Year} />

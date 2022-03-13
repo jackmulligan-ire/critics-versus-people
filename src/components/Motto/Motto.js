@@ -5,7 +5,7 @@ class Motto extends React.Component {
     render() {
         return (
             <Row >
-                <h3>They hate it, you love it.</h3>
+                <h3 className="text-center">They hate it, you love it.</h3>
             </Row>
         )
     }

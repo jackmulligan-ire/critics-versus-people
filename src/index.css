@@ -68,3 +68,15 @@ img {
         width: 225px;
     }
 }
+
+@media (max-width: 1200px) {
+    #search-row-initial {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #search-row-initial {
+        width: 75%;
+    }
+}
