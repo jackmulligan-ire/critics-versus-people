@@ -16,7 +16,7 @@ class ResultsView extends React.Component {
                         <SearchBar />
                     </Row>
                     <MovieTitle title={this.props.data.Title} year={this.props.data.Year} />
-                    <Row className="w-100 mt-2" id="ratings-row">
+                    <Row className="w-100 m0 mt-sm-2" id="ratings-row">
                         <MovieRating reviewer="Critics" rating={this.props.data.Metascore} />
                         <MovieRating reviewer="Viewers" rating={this.props.data.imdbRating} />
                     </Row>
