@@ -7,7 +7,7 @@ import Container from 'react-bootstrap/Container';
 class InitialView extends React.Component {
     render() {
         return (
-            <Container className="mt-5 d-flex flex-column justify-content-evenly align-items-center">
+            <Container className="mt-5 w-75 d-flex flex-column justify-content-evenly align-items-center">
                 <Logo />
                 <SearchBar />
                 <Motto />

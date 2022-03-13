@@ -29,15 +29,30 @@ h1 {
     font-size: 3.5rem;
 }
 
+h2 {
+    font-size: 2.5rem;
+}
+
 h3 {
     font-size: 2rem;
 }
 
-form {
-    width: 525px;
+.bold-text {
+    font-weight: 600;
 }
 
-.form-control {
-    min-width: 500px;
-    width: 100%;
+.summary-para-col {
+    text-align: justify;
+}
+
+#ratings-row {
+    min-height: 30vh;
+}
+
+.review-box {
+    height: 75%
+}
+
+#summary-row {
+    width: 86%;
 }

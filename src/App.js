@@ -11,7 +11,7 @@ class App extends React.Component {
     return string.replace(".", "");
   }  
   render() {
-    const showResults = false;
+    const showResults = true;
     dummyData['imdbRating'] = this.updateViewerRating(dummyData['imdbRating']);
     return (
       <div id="content">
