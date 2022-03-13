@@ -56,3 +56,15 @@ h3 {
 #summary-row {
     width: 86%;
 }
+
+img {
+    height: 325px;
+    width: 250px;
+}
+
+@media (max-width: 900px) {
+    img {
+        height: 275px;
+        width: 225px;
+    }
+}
