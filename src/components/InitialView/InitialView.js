@@ -11,7 +11,7 @@ class InitialView extends React.Component {
             <Container className="mt-5 w-75 d-flex flex-column justify-content-evenly align-items-center">
                 <Logo />
                 <Row id="search-row-initial" className="d-flex justify-content-center">
-                    <SearchBar />
+                    <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
                 <Motto />
             </Container>

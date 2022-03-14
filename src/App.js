@@ -11,9 +11,17 @@ class App extends React.Component {
     super(props)
     this.state = {
       searchQuery: "",
-      movieData: {},
     };
+
+    this.handleSearchQueryChange = this.handleSearchQueryChange.bind(this);
   }
+
+  handleSearchQueryChange(query) {
+    this.setState({
+      searchQuery: query,
+    })
+  }
+
   updateViewerRating(string) {
     return string.replace(".", "");
   }  
@@ -21,7 +29,11 @@ class App extends React.Component {
     dummyData['imdbRating'] = this.updateViewerRating(dummyData['imdbRating']);
     return (
       <div id="content">
-        {this.state.searchQuery ? <ResultsView data={dummyData}/> : <InitialView />}
+        {this.state.searchQuery ? 
+        <ResultsView 
+        query={this.state.searchQuery}/> : 
+        <InitialView
+        onSearchQueryChange={this.handleSearchQueryChange}/>}
         <Footer />
       </div>
     )
