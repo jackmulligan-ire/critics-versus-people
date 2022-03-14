@@ -7,15 +7,21 @@ import Footer from './components/Footer/Footer';
 const dummyData = require('./dummy-data.json');
 
 class App extends React.Component {
+  constructor(props) {
+    super(props)
+    this.state = {
+      searchQuery: "",
+      movieData: {},
+    };
+  }
   updateViewerRating(string) {
     return string.replace(".", "");
   }  
   render() {
-    const showResults = true;
     dummyData['imdbRating'] = this.updateViewerRating(dummyData['imdbRating']);
     return (
       <div id="content">
-        {showResults ? <ResultsView data={dummyData}/> : <InitialView />}
+        {this.state.searchQuery ? <ResultsView data={dummyData}/> : <InitialView />}
         <Footer />
       </div>
     )
