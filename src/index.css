@@ -1,0 +1,90 @@
+* {
+    font-family: 'Courier New', monospace;
+    color: white;
+}
+body{
+    background-color: black;
+}
+
+body,#root, #content {
+    min-height: 94vh;
+}
+
+footer {
+    background-color: white;
+    height: 7vh;
+}
+
+footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
+    color: black
+}
+
+.container {
+    min-height: 88vh;
+}
+
+
+a, a:hover {
+    color: white;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%)
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+.summary-para-col {
+    text-align: justify;
+}
+
+#ratings-row {
+    min-height: 30vh;
+}
+
+.review-box {
+    height: 75%
+}
+
+#summary-row {
+    width: 86%;
+}
+
+img {
+    height: 325px;
+    width: 250px;
+}
+
+@media (max-width: 900px) {
+    img {
+        height: 275px;
+        width: 225px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #search-row-initial {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #search-row-initial {
+        width: 75%;
+    }
+}

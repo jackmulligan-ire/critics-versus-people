@@ -1,9 +1,7 @@
 import React from 'react';
-import './App.css';
 import InitialView from './components/InitialView/InitialView';
 import ResultsView from './components/ResultsView/ResultsView';
 import Footer from './components/Footer/Footer';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Test JSON file to see what components look like
 const dummyData = require('./dummy-data.json');

@@ -3,8 +3,8 @@ import React from 'react';
 class Footer extends React.Component {
     render () {
         return (
-            <footer>
-                <p>Powered by <a href="http://www.omdbapi.com/">OMDB API</a></p>
+            <footer className="d-flex justify-content-center align-items-center">
+                <p className="m-0">Powered by <a href="http://www.omdbapi.com/" target="_blank">OMDb API</a></p>
             </footer>
         )
     }
