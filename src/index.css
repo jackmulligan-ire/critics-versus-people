@@ -15,7 +15,7 @@ footer {
     height: 7vh;
 }
 
-footer > p, footer > p > a, footer > p > a:hover {
+footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     color: black
 }
 
