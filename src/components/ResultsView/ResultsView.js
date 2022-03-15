@@ -8,7 +8,8 @@ class ResultsView extends React.Component {
     render() {
         return (
             <div id="results-view">
-                <SiteNavbar />
+                <SiteNavbar 
+                onSearchQueryChange={this.props.onSearchQueryChange}/>
                 {Object.keys(this.props.movieData).length === 0 ?
                 <LoadScreen 
                 query={this.props.query}
