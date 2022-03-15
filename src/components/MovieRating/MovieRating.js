@@ -2,6 +2,13 @@ import React from 'react';
 import Col from 'react-bootstrap/Col';
 
 class MovieRating extends React.Component {
+    constructor(props) {
+        super(props)
+
+        this.getScoreSummary = this.getScoreSummary.bind(this);
+        this.getReviewBackground = this.getReviewBackground.bind(this);
+    }
+
     getScoreSummary(score) {
         if (score >= 85) {
             return "Great";
