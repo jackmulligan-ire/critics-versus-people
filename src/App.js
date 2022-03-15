@@ -11,6 +11,7 @@ class App extends React.Component {
     super(props)
     this.state = {
       searchQuery: "",
+      movieData: {},
     };
 
     this.handleSearchQueryChange = this.handleSearchQueryChange.bind(this);
@@ -19,6 +20,7 @@ class App extends React.Component {
   handleSearchQueryChange(query) {
     this.setState({
       searchQuery: query,
+      movieData: {},
     })
   }
 
@@ -31,7 +33,9 @@ class App extends React.Component {
       <div id="content">
         {this.state.searchQuery ? 
         <ResultsView 
-        query={this.state.searchQuery}/> : 
+        query={this.state.searchQuery}
+        movieData={this.state.movieData}
+        onSearchQueryChange={this.handleSearchQueryChange}/> : 
         <InitialView
         onSearchQueryChange={this.handleSearchQueryChange}/>}
         <Footer />
