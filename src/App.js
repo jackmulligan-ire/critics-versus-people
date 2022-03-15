@@ -3,19 +3,42 @@ import InitialView from './components/InitialView/InitialView';
 import ResultsView from './components/ResultsView/ResultsView';
 import Footer from './components/Footer/Footer';
 
-// Test JSON file to see what components look like
-const dummyData = require('./dummy-data.json');
-
 class App extends React.Component {
-  updateViewerRating(string) {
-    return string.replace(".", "");
-  }  
+  constructor(props) {
+    super(props)
+    this.state = {
+      searchQuery: "",
+      movieData: {},
+    };
+
+    this.handleSearchQueryChange = this.handleSearchQueryChange.bind(this);
+    this.handleAPIReturn = this.handleAPIReturn.bind(this);
+  }
+
+  handleSearchQueryChange(query) {
+    this.setState({
+      searchQuery: query,
+      movieData: {},
+    })
+  }
+
+  handleAPIReturn(data) {
+    this.setState({
+      movieData: data,
+    })
+  }
+
   render() {
-    const showResults = true;
-    dummyData['imdbRating'] = this.updateViewerRating(dummyData['imdbRating']);
     return (
       <div id="content">
-        {showResults ? <ResultsView data={dummyData}/> : <InitialView />}
+        {this.state.searchQuery ? 
+        <ResultsView 
+        query={this.state.searchQuery}
+        movieData={this.state.movieData}
+        onSearchQueryChange={this.handleSearchQueryChange}
+        onAPIReturn={this.handleAPIReturn}/> : 
+        <InitialView
+        onSearchQueryChange={this.handleSearchQueryChange}/>}
         <Footer />
       </div>
     )
