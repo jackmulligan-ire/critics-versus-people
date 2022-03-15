@@ -71,8 +71,8 @@ img {
 }
 
 #film-reel {
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 }
 
 @media (max-width: 900px) {

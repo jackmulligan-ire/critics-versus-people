@@ -22,7 +22,7 @@ class LoadScreen extends React.Component {
         return (
             <Container className="d-flex flex-column justify-content-center">
                 <Row className="justify-content-center">
-                    <img id="film-reel" src={loader} />
+                    <img className="p-0" id="film-reel" src={loader} />
                     <h5 className="text-center">Peering into telescope to view stars given...</h5>
                 </Row>
             </Container>
