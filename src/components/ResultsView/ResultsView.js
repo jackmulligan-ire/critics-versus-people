@@ -5,18 +5,17 @@ import LoadScreen from '../LoadScreen/LoadScreen';
 
 
 class ResultsView extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-            movieData: {},
-        }
-    }
-
     render() {
         return (
             <div id="results-view">
                 <SiteNavbar />
-                {Object.keys(this.props.movieData).length === 0 ? <LoadScreen /> : <MovieInfo />}
+                {Object.keys(this.props.movieData).length === 0 ?
+                <LoadScreen 
+                query={this.props.query}
+                onAPIReturn={this.props.onAPIReturn} /> : 
+                <MovieInfo
+                movieData={this.props.movieData}
+                onSearchQueryChange={this.props.onSearchQueryChange} />}
             </div>
         )
     }

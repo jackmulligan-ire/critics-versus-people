@@ -15,12 +15,19 @@ class App extends React.Component {
     };
 
     this.handleSearchQueryChange = this.handleSearchQueryChange.bind(this);
+    this.handleAPIReturn = this.handleAPIReturn.bind(this);
   }
 
   handleSearchQueryChange(query) {
     this.setState({
       searchQuery: query,
       movieData: {},
+    })
+  }
+
+  handleAPIReturn(data) {
+    this.setState({
+      movieData: data,
     })
   }
 
@@ -35,7 +42,8 @@ class App extends React.Component {
         <ResultsView 
         query={this.state.searchQuery}
         movieData={this.state.movieData}
-        onSearchQueryChange={this.handleSearchQueryChange}/> : 
+        onSearchQueryChange={this.handleSearchQueryChange}
+        onAPIReturn={this.handleAPIReturn}/> : 
         <InitialView
         onSearchQueryChange={this.handleSearchQueryChange}/>}
         <Footer />
