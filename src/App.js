@@ -3,9 +3,6 @@ import InitialView from './components/InitialView/InitialView';
 import ResultsView from './components/ResultsView/ResultsView';
 import Footer from './components/Footer/Footer';
 
-// Test JSON file to see what components look like
-const dummyData = require('./dummy-data.json');
-
 class App extends React.Component {
   constructor(props) {
     super(props)
@@ -31,11 +28,7 @@ class App extends React.Component {
     })
   }
 
-  updateViewerRating(string) {
-    return string.replace(".", "");
-  }  
   render() {
-    dummyData['imdbRating'] = this.updateViewerRating(dummyData['imdbRating']);
     return (
       <div id="content">
         {this.state.searchQuery ? 
