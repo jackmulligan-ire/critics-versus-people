@@ -12,7 +12,8 @@ class LoadScreen extends React.Component {
             return json
         }
         fetchMovieData().then(json => {
-            this.props.onAPIReturn(json)
+            // Setting delay so loading screen is visible for a little bit
+            setTimeout(() => this.props.onAPIReturn(json), 1000)
         });
     }
 
