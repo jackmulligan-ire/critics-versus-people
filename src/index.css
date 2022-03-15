@@ -70,6 +70,11 @@ img {
     width: 250px;
 }
 
+#film-reel {
+    height: 100px;
+    width: 100px;
+}
+
 @media (max-width: 900px) {
     img {
         height: 275px;
