@@ -11,6 +11,7 @@ class LoadScreen extends React.Component {
                 const queryString = `http://www.omdbapi.com/?apikey=d6c3d2ef&t=${movieString}`;
                 const response = await fetch(queryString);
                 const json = await response.json();
+                if ('imdbRating' in json) json.imdbRating = json.imdbRating.replace(".", "")
                 return json
             } catch (err) {
                 // For internal error handling
@@ -23,7 +24,6 @@ class LoadScreen extends React.Component {
             }
         }
         const json = await fetchMovieData();
-        json.imdbRating = json.imdbRating.replace(".", "");
         setTimeout(() => this.props.onAPIReturn(json), 1000)
     }
 
