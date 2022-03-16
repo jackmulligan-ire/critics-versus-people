@@ -22,7 +22,8 @@ class ResultsView extends React.Component {
 
                 <ErrorScreen 
                 query={this.props.query} 
-                onSearchQueryChange={this.props.onSearchQueryChange}/> :
+                onSearchQueryChange={this.props.onSearchQueryChange}
+                errorData={this.props.movieData}/> :
 
                 <MovieInfo
                 movieData={this.props.movieData}

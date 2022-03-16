@@ -6,11 +6,23 @@ import loader from "../../images/white-spinner.gif";
 class LoadScreen extends React.Component {
     async componentDidMount() {
         const fetchMovieData = async () => {
-            const movieString = this.props.query.split(" ").join("+");
-            const queryString = `http://www.omdbapi.com/?apikey=d6c3d2ef&t=${movieString}`;
-            const response = await fetch(queryString);
-            const json = await response.json();
-            return json
+            try {
+                const movieString = this.props.query.split(" ").join("+");
+                const queryString = `http://www.omdbapi.com/?apikey=d6c3d2ef&t=${movieString}`;
+                const response = await fetch(queryString);
+                const json = await response.json();
+                return json
+            } catch (err) {
+                // For internal error handling
+                console.log(err)
+
+                const errorObject = {
+                    Response: 'False',
+                    Error: 'Unknown error',
+                }
+                
+                return errorObject
+            }
         }
         const json = await fetchMovieData();
         setTimeout(() => this.props.onAPIReturn(json), 1000)
