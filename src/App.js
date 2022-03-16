@@ -23,7 +23,6 @@ class App extends React.Component {
   }
 
   handleAPIReturn(data) {
-    console.log(data)
     this.setState({
       movieData: data,
     })

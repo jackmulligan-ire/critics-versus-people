@@ -15,16 +15,15 @@ class LoadScreen extends React.Component {
             } catch (err) {
                 // For internal error handling
                 console.log(err)
-
                 const errorObject = {
                     Response: 'False',
                     Error: 'Unknown error',
                 }
-                
                 return errorObject
             }
         }
         const json = await fetchMovieData();
+        json.imdbRating = json.imdbRating.replace(".", "");
         setTimeout(() => this.props.onAPIReturn(json), 1000)
     }
 

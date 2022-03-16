@@ -35,7 +35,7 @@ describe('Critics passed in as reviwer arg', () => {
 describe('Viewers passed in as reviewer arg', () => {
     describe('Rendering the score for viewers', () => {
         beforeEach(() => {
-            render(<MovieRating reviewer="Viewers" rating="88"/>)
+            render(<MovieRating reviewer="Viewers" rating="8.8"/>)
         })
         test('imdb score showing on page', () => {
             expect(screen.getByRole('heading', {

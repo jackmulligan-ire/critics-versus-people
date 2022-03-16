@@ -43,11 +43,9 @@ class MovieRating extends React.Component {
 
     render() {
         const scoreSummary = this.getScoreSummary(this.props.rating);
-        
         const reviewBoxStyle = {
             backgroundColor: this.getReviewBackground(this.props.rating)
         }
-
         return (
                 <Col md={6} className="d-flex mt-1 m-sm-0 flex-column align-items-center">
                     <h2 className="m-0">{this.props.reviewer}</h2>
