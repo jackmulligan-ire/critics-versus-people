@@ -18,8 +18,10 @@ class MovieRating extends React.Component {
             return "Okay";
         } else if (score >= 25) {
             return "Bad"
-        } else {
+        } else if (score >= 0) {
             return "Awful"
+        } else {
+            return "Huh?"
         }
     }
 
@@ -27,23 +29,23 @@ class MovieRating extends React.Component {
         if (score >= 85) {
             return "#11FFEE";
         } else if (score >= 70) {
-            return "#1ce815";
+            return "#1CE815";
         } else if (score >= 50) {
             return "#FFF01E";
         } else if (score >= 25) {
             return "#FFAD00"
-        } else {
+        } else if (score >= 0) {
             return "#F00"
+        } else {
+            return "#F6E495"
         }
     }
 
     render() {
         const scoreSummary = this.getScoreSummary(this.props.rating);
-        
         const reviewBoxStyle = {
             backgroundColor: this.getReviewBackground(this.props.rating)
         }
-
         return (
                 <Col md={6} className="d-flex mt-1 m-sm-0 flex-column align-items-center">
                     <h2 className="m-0">{this.props.reviewer}</h2>

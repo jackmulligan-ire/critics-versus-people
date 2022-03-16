@@ -15,7 +15,7 @@ class MovieInfo extends React.Component {
                 <MovieTitle title={this.props.movieData.Title} year={this.props.movieData.Year} />
                 <Row className="w-100 m0 mt-sm-2" id="ratings-row">
                     <MovieRating reviewer="Critics" rating={this.props.movieData.Metascore} />
-                    <MovieRating reviewer="Viewers" rating={this.props.movieData.imdbRating * 10} />
+                    <MovieRating reviewer="Viewers" rating={this.props.movieData.imdbRating} />
                 </Row>
                 <MovieSummary 
                     plot={this.props.movieData.Plot} 
