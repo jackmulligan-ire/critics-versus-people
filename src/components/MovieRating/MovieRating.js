@@ -18,8 +18,10 @@ class MovieRating extends React.Component {
             return "Okay";
         } else if (score >= 25) {
             return "Bad"
-        } else {
+        } else if (score >= 0) {
             return "Awful"
+        } else {
+            return "Huh?"
         }
     }
 
@@ -27,13 +29,15 @@ class MovieRating extends React.Component {
         if (score >= 85) {
             return "#11FFEE";
         } else if (score >= 70) {
-            return "#1ce815";
+            return "#1CE815";
         } else if (score >= 50) {
             return "#FFF01E";
         } else if (score >= 25) {
             return "#FFAD00"
-        } else {
+        } else if (score >= 0) {
             return "#F00"
+        } else {
+            return "#F6E495"
         }
     }
 

@@ -20,11 +20,18 @@ describe('Critics passed in as reviwer arg', () => {
         })
         test('Score summary showing on page', () => {
             expect(screen.getByRole('heading', {
-                name: /Okay./i
+                name: /Okay/i
             })).toBeInTheDocument()
         })
     })
+    test('No rating available for critics', () => {
+        render(<MovieRating reviewer="Critics" rating="N/A" />)
+        expect(screen.getByRole('heading', {
+                name: /Huh\?/i
+            })).toBeInTheDocument()
+    })
 })
+
 describe('Viewers passed in as reviewer arg', () => {
     describe('Rendering the score for viewers', () => {
         beforeEach(() => {
