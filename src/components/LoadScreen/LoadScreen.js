@@ -4,6 +4,12 @@ import loader from "../../images/white-spinner.gif";
 
 
 class LoadScreen extends React.Component {
+    constructor(props) {
+        super(props)
+        this.getLoadPhrase = this.getLoadPhrase.bind(this);
+        this.getLoadPhrasesLength = this.getLoadPhrasesLength.bind(this);
+    }
+
     async componentDidMount() {
         const fetchMovieData = async () => {
             try {
@@ -27,12 +33,29 @@ class LoadScreen extends React.Component {
         setTimeout(() => this.props.onAPIReturn(json), 1000)
     }
 
+    loadPhrases = [
+        <h5 className="text-center">Counting number of thumbs currently up...</h5>,
+        <h5 className="text-center">Collecting tomato residue for analysis...</h5>,
+        <h5 className="text-center">Scanning obscure blogs from 2007...</h5>,
+        <h5 className="text-center">Viewing stars given in telescope...</h5>,
+        <h5 className="text-center">Waiting for last judge to raise placard...</h5>,
+    ];
+
+    getLoadPhrase(seed) {
+        return this.loadPhrases[seed];
+    }
+
+    getLoadPhrasesLength() {
+        return this.loadPhrases.length;
+    }
+
     render() {
+        const phraseSeed = Math.floor(Math.random() * this.getLoadPhrasesLength());
         return (
             <Container className="d-flex flex-column justify-content-center">
                 <Row className="justify-content-center">
                     <img className="p-0" id="film-reel" src={loader} />
-                    <h5 className="text-center">Peering into telescope to view stars given...</h5>
+                    {this.getLoadPhrase(phraseSeed)}
                 </Row>
             </Container>
         )
