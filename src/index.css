@@ -75,6 +75,24 @@ img {
     width: 75px;
 }
 
+.cvv-site-button {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.cvv-site-button:hover, .cvv-site-button:focus {
+    color: white;
+    background-color: black;
+    border-color: white;
+    box-shadow: none;
+}
+
+.modal-content {
+    background-color: black;
+    border-color: white;
+}
+
 @media (max-width: 900px) {
     img {
         height: 275px;
