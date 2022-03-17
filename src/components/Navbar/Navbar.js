@@ -3,6 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import Button from 'react-bootstrap/Button';
 import AboutModal from '../AboutModal/AboutModal';
+import SearchBar from '../SearchBar/SearchBar';
 
 class SiteNavbar extends React.Component {
     constructor(props) {
@@ -17,10 +18,13 @@ class SiteNavbar extends React.Component {
 
     render() {
         return (
-            <Navbar className="border-bottom" variant="dark">
+            <Navbar className="border-bottom justify-content-between" variant="dark">
                 <Navbar.Brand onClick={this.handleSiteReset} className="mx-3">Critics vs. Viewers</Navbar.Brand>
-                <Nav className="justify-content-end w-100">
+                <Nav className="justify-content-between w-100">
                     <Button onClick={this.props.onModalChange} className="cvv-site-button mx-4">About</Button>
+                    <div className="d-none d-md-block mx-3 w-50">
+                        <SearchBar onSearchQueryChange={this.props.onSearchQueryChange} />
+                    </div>
                 </Nav>
                 <AboutModal onModalChange={this.props.onModalChange} show={this.props.showModal} />
             </Navbar>

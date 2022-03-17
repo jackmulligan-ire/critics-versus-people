@@ -107,20 +107,12 @@ img {
 }
 
 @media (min-width: 1200px) {
-    #search-row-initial {
-        width: 75%;
-    }
-
     #search-row-error {
         width: 50%;
     }
 }
 
 @media (max-width: 1200px) {
-    #search-row-initial {
-        width: 100%;
-    }
-
     #search-row-error {
         width: 75%;
     }

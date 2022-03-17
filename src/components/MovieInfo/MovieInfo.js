@@ -9,7 +9,7 @@ class MovieInfo extends React.Component {
     render() {
         return (
             <Container className="w-75 d-flex flex-column align-items-center">
-                <Row id="search-row-results" className="w-100 d-flex justify-content-center my-3">
+                <Row id="search-row-results" className="w-75 d-flex d-md-none justify-content-center my-3">
                     <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
                 <MovieTitle title={this.props.movieData.Title} year={this.props.movieData.Year} />

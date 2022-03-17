@@ -15,7 +15,7 @@ class ErrorScreen extends React.Component {
                     }
                     
                 </Row>
-                <Row id="search-row-error" className="justify-content-center">
+                <Row cid="search-row-error" className="justify-content-center w-75 d-flex d-md-none">
                     <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
             </Container>
