@@ -6,11 +6,27 @@ import ErrorScreen from '../ErrorScreen/ErrorScreen';
 
 
 class ResultsView extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            showModal: false,
+        }
+        this.handleModalChange = this.handleModalChange.bind(this);
+    }
+
+    handleModalChange() {
+        this.setState(state => {
+            return {showModal: !state.showModal}
+        })
+    }
+
     render() {
         return (
             <div id="results-view">
                 <SiteNavbar 
-                onSearchQueryChange={this.props.onSearchQueryChange}/>
+                onSearchQueryChange={this.props.onSearchQueryChange}
+                showModal={this.state.showModal}
+                onModalChange={this.handleModalChange}/>
                 {
                 Object.keys(this.props.movieData).length === 0 ?
 

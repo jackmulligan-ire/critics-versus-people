@@ -75,14 +75,20 @@ img {
     width: 75px;
 }
 
-#about-button {
+.cvv-site-button {
     color: white;
     background-color: black;
     border-color: black;
 }
 
-#about-button:hover, #about-button:focus {
+.cvv-site-button:hover, .cvv-site-button:focus {
     color: white;
+    background-color: black;
+    border-color: white;
+    box-shadow: none;
+}
+
+.modal-content {
     background-color: black;
     border-color: white;
 }
