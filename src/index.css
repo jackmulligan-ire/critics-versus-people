@@ -75,6 +75,18 @@ img {
     width: 75px;
 }
 
+#about-button {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+#about-button:hover, #about-button:focus {
+    color: white;
+    background-color: black;
+    border-color: white;
+}
+
 @media (max-width: 900px) {
     img {
         height: 275px;
