@@ -5,39 +5,39 @@ class Motto extends React.Component {
     constructor(props) {
         super(props)
         this.getMottoPhrase = this.getMottoPhrase.bind(this);
+        this.getMottoPhrasesLength = this.getMottoPhrasesLength.bind(this);
     }
 
-    getMottoPhrase() {
-        const redColor = {
-            color: '#F00'
-        };
-        const greenColor = {
-            color: '#1CE815'
-        };
-        const beigeColor = {
-            color: "#F6E495"
-        };
-        const yellowColor = {
-            color: "#FFF01E"
-        };
-        const mottoPhrases = [
-            <h4 className="text-center">They <span style={redColor}>panned</span> it, you <span style={greenColor}> stan</span> it.</h4>,  
-            <h4 className="text-center">They're like <span style={beigeColor}>'Huh?'</span>, you say <span style={greenColor}> 'Bruh!'</span>.</h4>,
-            <h4 className="text-center">They say it's <span style={greenColor}>a classic</span>, you think it's <span style={redColor}> tragic</span>.</h4>,
-            <h4 className="text-center">You think it <span style={greenColor}>rocked</span>, they say it <span style={redColor}> sucked</span>!</h4>,
-            <h4 className="text-center">They <span style={redColor}>hate</span> it, you <span style={greenColor}>love</span> it.</h4>,
-            <h4 className="text-center">You think it's <span style={yellowColor}>fine</span>, they think it's <span style={greenColor}> sublime</span>.</h4>,
-            <h4 className="text-center">They <span style={beigeColor}>ignored</span> it, you <span style={greenColor}>adored</span> it.</h4>,
-        ]
-        
-        const randomNumber = Math.floor(Math.random() * (mottoPhrases.length - 1));
-        return mottoPhrases[randomNumber]
+    spanColors = {
+        "red" : {color: '#F00'},
+        "green": {color: '#1CE815'},
+        "beige": {color: "#F6E495"},
+        "yellow": {color: "#FFF01E"}
+    };
+
+    mottoPhrases = [
+        <h4 className="text-center">They <span style={this.spanColors.red}>panned</span> it, you <span style={this.spanColors.green}> stanned</span> it.</h4>,  
+        <h4 className="text-center">They're like <span style={this.spanColors.beige}>'Huh?'</span>, you say <span style={this.spanColors.green}> 'Bruh!'</span>.</h4>,
+        <h4 className="text-center">They say it's <span style={this.spanColors.green}>a classic</span>, you think it's <span style={this.spanColors.red}> tragic</span>.</h4>,
+        <h4 className="text-center">You think it <span style={this.spanColors.green}>rocked</span>, they say it <span style={this.spanColors.red}> sucked</span>!</h4>,
+        <h4 className="text-center">They <span style={this.spanColors.red}>hate</span> it, you <span style={this.spanColors.green}>love</span> it.</h4>,
+        <h4 className="text-center">You think it's <span style={this.spanColors.yellow}>fine</span>, they think it's <span style={this.spanColors.green}> sublime</span>.</h4>,
+        <h4 className="text-center">They <span style={this.spanColors.beige}>ignored</span> it, you <span style={this.spanColors.green}>adored</span> it.</h4>,
+    ];
+
+    getMottoPhrase(seed) {      
+        return this.mottoPhrases[seed]
+    }
+
+    getMottoPhrasesLength() {
+        return this.mottoPhrases.length;
     }
 
     render() {
+        const phraseSeed = Math.floor(Math.random() * this.getMottoPhrasesLength())
         return (
             <Row >
-                {this.getMottoPhrase()}
+                {this.getMottoPhrase(phraseSeed)}
             </Row>
         )
     }
