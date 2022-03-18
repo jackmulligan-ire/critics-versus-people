@@ -47,7 +47,7 @@ class MovieRating extends React.Component {
             backgroundColor: this.getReviewBackground(this.props.rating)
         }
         return (
-                <Col md={6} className="d-flex mt-2 m-sm-0 flex-column align-items-center">
+                <Col md={6} className="d-flex mt-2 m-md-0 flex-column align-items-center">
                     <h2 className="m-0">{this.props.reviewer}</h2>
                     <div style={reviewBoxStyle} className="d-flex flex-column align-items-center justify-content-center review-box">
                         <h2>{this.props.rating}</h2>
