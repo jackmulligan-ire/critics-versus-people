@@ -84,6 +84,10 @@ h3 {
     text-align: justify;
 }
 
+#initial-container {
+    min-height: 94vh;
+}
+
 @media (max-width: 900px) {
     img {
         height: 275px;

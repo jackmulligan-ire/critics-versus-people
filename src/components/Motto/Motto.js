@@ -36,7 +36,7 @@ class Motto extends React.Component {
     render() {
         const phraseSeed = Math.floor(Math.random() * this.getMottoPhrasesLength())
         return (
-            <Row >
+            <Row className="mb-4">
                 {this.getMottoPhrase(phraseSeed)}
             </Row>
         )
