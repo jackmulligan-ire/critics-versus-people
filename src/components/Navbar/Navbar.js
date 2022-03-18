@@ -19,7 +19,10 @@ class SiteNavbar extends React.Component {
     render() {
         return (
             <Navbar className="border-bottom justify-content-between" variant="dark">
-                <Navbar.Brand onClick={this.handleSiteReset} className="mx-3">Critics vs. Viewers</Navbar.Brand>
+                {/*  */}
+                <Button 
+                className="mx-3 navbar-brand cvv-site-button"
+                onClick={this.handleSiteReset}>Critics vs. Viewers</Button>
                 <Nav className="justify-content-between w-100">
                     <Button onClick={this.props.onModalChange} className="cvv-site-button mx-4">About</Button>
                     <div className="d-none d-md-block mx-3 w-50">
