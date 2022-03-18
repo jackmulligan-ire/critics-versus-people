@@ -8,12 +8,12 @@ import Row from 'react-bootstrap/Row';
 class InitialView extends React.Component {
     render() {
         return (
-            <Container className="mt-5 w-75 d-flex flex-column justify-content-evenly align-items-center">
+            <Container id="initial-container" className="w-100 d-flex flex-column justify-content-center align-items-center">
                 <Logo />
-                <Row id="search-row-initial" className="d-flex justify-content-center">
+                <Motto />
+                <Row id="search-row-initial" className="d-flex justify-content-center w-75">
                     <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
-                <Motto />
             </Container>
         );
     }

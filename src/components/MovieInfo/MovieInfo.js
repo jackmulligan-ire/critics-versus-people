@@ -8,14 +8,14 @@ import { Container, Row } from 'react-bootstrap';
 class MovieInfo extends React.Component {
     render() {
         return (
-            <Container className="w-75 d-flex flex-column align-items-center">
-                <Row id="search-row-results" className="w-100 d-flex justify-content-center my-3">
+            <Container className="w-100 d-flex flex-column align-items-center">
+                <Row id="search-row-results" className="w-75 d-flex d-md-none justify-content-center my-3">
                     <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
                 <MovieTitle title={this.props.movieData.Title} year={this.props.movieData.Year} />
-                <Row className="w-100 m0 mt-sm-2" id="ratings-row">
+                <Row className="w-75 mb-3 mb-md-0" id="ratings-row">
                     <MovieRating reviewer="Critics" rating={this.props.movieData.Metascore} />
-                    <MovieRating reviewer="Viewers" rating={this.props.movieData.imdbRating} />
+                    <MovieRating reviewer="The People" rating={this.props.movieData.imdbRating} />
                 </Row>
                 <MovieSummary 
                     plot={this.props.movieData.Plot} 

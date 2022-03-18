@@ -17,7 +17,6 @@ class SearchBar extends React.Component {
     render () {
         return (
                 <Form 
-                className="w-75"
                 onSubmit={this.handleSearchQueryChange}
                 >
                     <Form.Control 

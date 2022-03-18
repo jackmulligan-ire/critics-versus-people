@@ -6,7 +6,7 @@ class ErrorScreen extends React.Component {
     render() {
         return (
             <Container className="d-flex flex-column align-items-center justify-content-center" id="error-screen">
-                <Row className="justify-content text-center w-100 mb-4">
+                <Row className="justify-content text-center w-100">
                     <h2>It's a flop!</h2>
                     {
                         this.props.errorData.Error === "Movie not found!" ? 
@@ -15,7 +15,7 @@ class ErrorScreen extends React.Component {
                     }
                     
                 </Row>
-                <Row id="search-row-error" className="justify-content-center">
+                <Row cid="search-row-error" className="justify-content-center w-75 d-flex d-md-none">
                     <SearchBar onSearchQueryChange={this.props.onSearchQueryChange}/>
                 </Row>
             </Container>
