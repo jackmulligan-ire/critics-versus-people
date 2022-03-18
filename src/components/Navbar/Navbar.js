@@ -21,7 +21,7 @@ class SiteNavbar extends React.Component {
             <Navbar className="border-bottom justify-content-between" variant="dark">
                 <Button 
                 className="navbar-brand cvv-site-button ms-2 ms-xl-3 me-1"
-                onClick={this.handleSiteReset}>Critics vs. Viewers</Button>
+                onClick={this.handleSiteReset}>Critics vs. The People</Button>
                 <Nav className="justify-content-between w-100">
                     <Button onClick={this.props.onModalChange} className="cvv-site-button">About</Button>
                     <div className="d-none d-md-block mx-3 w-50">
