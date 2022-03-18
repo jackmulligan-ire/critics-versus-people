@@ -6,7 +6,7 @@ class MovieTitle extends React.Component {
         const movieTitle = `${this.props.title} (${this.props.year})`
 
         return (
-            <Row className="my-2" id="title-row">
+            <Row className="m-0 mt-md-3" id="title-row">
                 <h2 className="text-center bold-text">{movieTitle}</h2>
             </Row>
         )

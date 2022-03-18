@@ -49,25 +49,12 @@ h3 {
     font-weight: 600;
 }
 
-.summary-para-col {
-    text-align: justify;
-}
-
 #ratings-row {
     min-height: 30vh;
 }
 
-.review-box {
-    height: 75%
-}
-
-#summary-row {
-    width: 86%;
-}
-
-img {
-    height: 325px;
-    width: 250px;
+#poster {
+    height: 350px;
 }
 
 #film-reel {
@@ -93,6 +80,10 @@ img {
     border-color: white;
 }
 
+#plot-para {
+    text-align: justify;
+}
+
 @media (max-width: 900px) {
     img {
         height: 275px;
@@ -110,10 +101,31 @@ img {
     #search-row-error {
         width: 50%;
     }
+    .review-box {
+        height: 225px;
+    }
+
+    #summary-content, #poster, .review-box {
+        width: 275px;
+    }
+    
 }
 
 @media (max-width: 1200px) {
     #search-row-error {
         width: 75%;
+    }
+    .review-box {
+        height: 200px;
+    }
+
+    #summary-content, #poster, .review-box {
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container, .container-sm {
+        max-width: 960px;
     }
 }

@@ -5,12 +5,12 @@ class MovieSummary extends React.Component {
     render() {
         const imdbLink = `https://www.imdb.com/title/${this.props.imdbID}/`
         return (
-            <Row id="summary-row" className="mt-3 mt-sm-2">
-                <Col md={6} className="p-0 d-flex flex-column justify-content-center summary-para-col">
+            <Row id="summary-row" className="mt-0 mt-md-3 mb-3 w-75">
+                <Col md={6} className="p-0 d-flex flex-column justify-content-between align-items-center">
                     {
                     this.props.plot !== "N/A" ?
                     <div id="summary-content">
-                        <p>{this.props.plot}</p>
+                        <p id="plot-para">{this.props.plot}</p>
                         <p>Director: {this.props.director}<br />
                         Actors: {this.props.actors}</p>
                     </div> :
@@ -18,11 +18,11 @@ class MovieSummary extends React.Component {
                     }
                     <p className="m-0">View on <a href={imdbLink} target="_blank">IMDB</a></p>
                 </Col>
-                <Col md={6} className="p-0 mb-3 mb-sm-0 d-flex justify-content-center justify-content-md-end">
+                <Col md={6} className="p-0 mt-3 mt-md-0 d-flex justify-content-center">
                     {
                     this.props.poster === "N/A" ?
                     <div>{null}</div>:   
-                    <img className="mx-xxl-5" src={this.props.poster}/>
+                    <img id="poster" src={this.props.poster}/>
                     }
                 </Col>
             </Row>
