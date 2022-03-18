@@ -13,7 +13,7 @@ class AboutModal extends React.Component {
                     <p>The following data from the Open Movie Database are used to generate the ratings:</p>
                     <ul>
                         <li>Critics: Average score from <a href="https://www.metacritic.com/" target="_blank" rel="noreferrer">Metacritic</a>.</li>
-                        <li>The People: Average score from <a href="https://www.imdb.com/" target="_blank" rel="noreferrer">IMDb.</a></li>
+                        <li>The People: Average score from <a href="https://www.imdb.com/" target="_blank" rel="noreferrer">IMDb</a>.</li>
                     </ul>
                     <p>Additional data taken from IMDb and Amazon (posters) via OMDb.</p>
                 </Modal.Body>
