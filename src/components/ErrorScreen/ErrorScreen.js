@@ -6,7 +6,7 @@ class ErrorScreen extends React.Component {
     render() {
         return (
             <Container className="d-flex flex-column align-items-center justify-content-center" id="error-screen">
-                <Row className="justify-content text-center w-100 mb-4">
+                <Row className="justify-content text-center w-100">
                     <h2>It's a flop!</h2>
                     {
                         this.props.errorData.Error === "Movie not found!" ? 
