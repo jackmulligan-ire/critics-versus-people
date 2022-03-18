@@ -5,7 +5,7 @@ class MovieSummary extends React.Component {
     render() {
         const imdbLink = `https://www.imdb.com/title/${this.props.imdbID}/`
         return (
-            <Row id="summary-row" className="mt-0 mt-md-3 mb-3 w-75">
+            <Row id="summary-row" className="mt-0 mt-md-3 mb-5 w-75">
                 <Col md={6} className="p-0 d-flex flex-column justify-content-between align-items-center">
                     {
                     this.props.plot !== "N/A" ?
