@@ -1,0 +1,124 @@
+* {
+    font-family: 'Courier New', monospace;
+    color: white;
+}
+
+body {
+    background-color: black;
+}
+
+body, #root, #content {
+    min-height: 94vh;
+}
+
+footer {
+    background-color: white;
+    height: 7vh;
+}
+
+footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
+    color: black
+}
+
+.container {
+    min-height: 88vh;
+}
+
+
+a, a:hover {
+    color: white;
+}
+
+.form-control:focus {
+    border-color: white;
+    box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%)
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+#ratings-row {
+    min-height: 30vh;
+}
+
+#poster {
+    height: 350px;
+}
+
+#spinner {
+    height: 75px;
+    width: 75px;
+}
+
+.cvv-site-button {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.cvv-site-button:hover, .cvv-site-button:focus {
+    color: white;
+    background-color: black;
+    border-color: white;
+    box-shadow: none;
+}
+
+.modal-content {
+    background-color: black;
+    border-color: white;
+}
+
+#plot-para {
+    text-align: justify;
+}
+
+#initial-container {
+    min-height: 94vh;
+}
+
+@media (max-width: 900px) {
+    img {
+        height: 275px;
+        width: 225px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .review-box {
+        height: 225px;
+    }
+
+    #summary-content, #poster, .review-box {
+        width: 275px;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .review-box {
+        height: 200px;
+    }
+
+    #summary-content, #poster, .review-box {
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container, .container-sm {
+        max-width: 960px;
+    }
+}
