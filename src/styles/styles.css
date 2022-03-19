@@ -29,11 +29,6 @@ a, a:hover {
     color: white;
 }
 
-.form-control:focus {
-    border-color: white;
-    box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%)
-}
-
 .bold-text {
     font-weight: 600;
 }
