@@ -6,4 +6,5 @@ Compare the verdict of movie critics and viewers for any entry in the Open Movie
 - JavaScript ES6
 - Bootstrap CSS (customised using SASS)
 - npm and Webpack (via Create React App)
-
+- Jest
+- React Testing Library
