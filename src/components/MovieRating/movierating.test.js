@@ -33,14 +33,17 @@ describe('Critics passed in as reviwer arg', () => {
 })
 
 describe('Viewers passed in as reviewer arg', () => {
-    describe('Rendering the score for viewers', () => {
-        beforeEach(() => {
-            render(<MovieRating reviewer="Viewers" rating="8.8"/>)
-        })
-        test('imdb score showing on page', () => {
-            expect(screen.getByRole('heading', {
-                name: /88/i
-            })).toBeInTheDocument()
-        })
+    beforeEach(() => {
+        render(<MovieRating reviewer="The People" rating="88"/>)
+    })
+    test('imdb score showing on page', () => {
+        expect(screen.getByRole('heading', {
+            name: /88/i
+        })).toBeInTheDocument()
+    })
+    test('The people showing up in page', () => {
+        expect(screen.getByRole('heading', {
+            name: /The People/i
+        })).toBeInTheDocument()
     })
 })

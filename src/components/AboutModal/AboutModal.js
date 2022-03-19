@@ -15,7 +15,7 @@ class AboutModal extends React.Component {
                         <li>Critics: Average score from <a href="https://www.metacritic.com/" target="_blank" rel="noreferrer">Metacritic</a>.</li>
                         <li>The People: Average score from <a href="https://www.imdb.com/" target="_blank" rel="noreferrer">IMDb</a>.</li>
                     </ul>
-                    <p>Additional data taken from IMDb and Amazon (posters) via OMDb.</p>
+                    <p>Additional data taken from IMDb and Amazon (posters) via OMDb (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel='noreferrer'>CC BY-NC 4.0</a>).</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button className="cvv-site-button" onClick={this.props.onModalChange}>Close</Button>

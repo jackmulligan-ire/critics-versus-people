@@ -6,5 +6,5 @@ beforeEach(() => {
 })
 
 test('Navbar renders on the page', () => {
-    expect(screen.getByText(/critics vs\. viewers/i)).toBeInTheDocument()
+    expect(screen.getByText(/critics vs\. the people/i)).toBeInTheDocument()
 })

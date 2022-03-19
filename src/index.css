@@ -2,11 +2,12 @@
     font-family: 'Courier New', monospace;
     color: white;
 }
-body{
+
+body {
     background-color: black;
 }
 
-body,#root, #content {
+body, #root, #content {
     min-height: 94vh;
 }
 
@@ -57,7 +58,7 @@ h3 {
     height: 350px;
 }
 
-#film-reel {
+#spinner {
     height: 75px;
     width: 75px;
 }
@@ -95,16 +96,7 @@ h3 {
     }
 }
 
-@media (max-width: 1200px) {
-    .search-row-special {
-        width: 100%;
-    }
-}
-
 @media (min-width: 1200px) {
-    #search-row-error {
-        width: 50%;
-    }
     .review-box {
         height: 225px;
     }
@@ -116,9 +108,6 @@ h3 {
 }
 
 @media (max-width: 1200px) {
-    #search-row-error {
-        width: 75%;
-    }
     .review-box {
         height: 200px;
     }
