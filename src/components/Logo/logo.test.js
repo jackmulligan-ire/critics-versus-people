@@ -7,6 +7,6 @@ beforeEach(() => {
 
 test('Logo renders on page', () => {
     expect(screen.getByRole('heading', {
-        name: /critics vs\. viewers/i
+        name: /critics vs\. the people/i
       })).toBeInTheDocument()
 })

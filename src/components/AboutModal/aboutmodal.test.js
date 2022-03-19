@@ -1,18 +1,18 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, getByText } from '@testing-library/react';
 import AboutModal from './AboutModal';
 
 beforeEach(() => {
-    render(<AboutModal />)
+    render(<AboutModal show={true}/>)
 })
 
 test('Modal header', () => {
-    expect(screen.getByText(/About Critics vs. Viewers/i)).toBeInTheDocument()
+    expect(screen.getByText(/About Critics vs. The People/i)).toBeInTheDocument()
 })
 
 test('Modal body', () => {
     expect(screen.getByText(/Metacritic/)).toBeInTheDocument()
-    expect(screen.getByText(/IMDB/i)).toBeInTheDocument()
-
+    const IMDBnodes = screen.getAllByText(/IMDB/i);
+    IMDBnodes.forEach(node => expect(getByText(node, /IMDB/i)).toBeInTheDocument());
 })
 
 test('Modal close button', () => {
