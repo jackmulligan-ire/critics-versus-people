@@ -14,7 +14,7 @@ class LoadScreen extends React.Component {
         const fetchMovieData = async () => {
             try {
                 const movieString = this.props.query.split(" ").join("+");
-                const queryString = `http://www.omdbapi.com/?apikey=d6c3d2ef&t=${movieString}`;
+                const queryString = `https://www.omdbapi.com/?apikey=d6c3d2ef&t=${movieString}`;
                 const response = await fetch(queryString);
                 const json = await response.json();
                 if ('imdbRating' in json) json.imdbRating = json.imdbRating.replace(".", "")
