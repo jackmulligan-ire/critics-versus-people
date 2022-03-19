@@ -562,9 +562,7 @@ progress {
 
 .container,
 .container-fluid,
-.container-xxl,
 .container-xl,
-.container-lg,
 .container-md,
 .container-sm {
   width: 100%;
@@ -581,22 +579,12 @@ progress {
 }
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
 }
 @media (min-width: 1200px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
-  }
-}
-@media (min-width: 1400px) {
-  .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-    max-width: 1320px;
   }
 }
 .row {
@@ -3883,9 +3871,7 @@ textarea.form-control-lg {
 .navbar > .container-fluid,
 .navbar > .container-sm,
 .navbar > .container-md,
-.navbar > .container-lg,
-.navbar > .container-xl,
-.navbar > .container-xxl {
+.navbar > .container-xl {
   display: flex;
   flex-wrap: inherit;
   align-items: center;

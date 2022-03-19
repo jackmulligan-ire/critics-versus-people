@@ -104,9 +104,3 @@ a, a:hover {
         width: 250px;
     }
 }
-
-@media (min-width: 768px) {
-    .container, .container-sm {
-        max-width: 960px;
-    }
-}
