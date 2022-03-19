@@ -23,6 +23,7 @@ class MovieInfo extends React.Component {
                     actors={this.props.movieData.Actors}
                     imdbID={this.props.movieData.imdbID}
                     poster={this.props.movieData.Poster}
+                    title={this.props.movieData.Title}
                 />
             </Container>
         )
