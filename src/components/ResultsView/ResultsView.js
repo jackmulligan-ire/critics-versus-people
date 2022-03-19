@@ -34,7 +34,7 @@ class ResultsView extends React.Component {
                 query={this.props.query}
                 onAPIReturn={this.props.onAPIReturn} /> :
 
-                this.props.movieData.Response == "False" ? 
+                this.props.movieData.Response === "False" ? 
 
                 <ErrorScreen 
                 query={this.props.query} 

@@ -16,7 +16,7 @@ class MovieSummary extends React.Component {
                     </div> :
                     <div>{null}</div>
                     }
-                    <p className="m-0">View on <a href={imdbLink} target="_blank">IMDB</a></p>
+                    <p className="m-0">View on <a href={imdbLink} target="_blank" rel="noreferrer">IMDB</a></p>
                 </Col>
                 <Col md={6} className="p-0 mt-3 mt-md-0 d-flex justify-content-center">
                     {
