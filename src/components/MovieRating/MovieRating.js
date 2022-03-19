@@ -4,47 +4,29 @@ import Col from 'react-bootstrap/Col';
 class MovieRating extends React.Component {
     constructor(props) {
         super(props)
-
-        this.getScoreSummary = this.getScoreSummary.bind(this);
-        this.getReviewBackground = this.getReviewBackground.bind(this);
+        this.getReviewBoxContent = this.getReviewBoxContent.bind(this);
     }
 
-    getScoreSummary(score) {
+    getReviewBoxContent(score) {
         if (score >= 85) {
-            return "Great";
+            return {summary: "Great", hexcode: "#11FFEE"}
         } else if (score >= 70) {
-            return "Good";
+            return {summary: "Good", hexcode: "#1CE815"}
         } else if (score >= 50) {
-            return "Okay";
+            return {summary: "Okay", hexcode: "#FFF01E"}
         } else if (score >= 25) {
-            return "Bad"
+            return {summary: "Bad", hexcode: "#FFAD00"}
         } else if (score >= 0) {
-            return "Awful"
+            return {summary: "Awful", hexcode: "#F00"}
         } else {
-            return "Huh?"
-        }
-    }
-
-    getReviewBackground(score) {
-        if (score >= 85) {
-            return "#11FFEE";
-        } else if (score >= 70) {
-            return "#1CE815";
-        } else if (score >= 50) {
-            return "#FFF01E";
-        } else if (score >= 25) {
-            return "#FFAD00"
-        } else if (score >= 0) {
-            return "#F00"
-        } else {
-            return "#F6E495"
+            return {summary: "Huh?", hexcode: "#F6E495"}
         }
     }
 
     render() {
-        const scoreSummary = this.getScoreSummary(this.props.rating);
+        const scoreSummary = this.getReviewBoxContent(this.props.rating).summary;
         const reviewBoxStyle = {
-            backgroundColor: this.getReviewBackground(this.props.rating)
+            backgroundColor: this.getReviewBoxContent(this.props.rating).hexcode
         }
         return (
                 <Col md={6} className="d-flex mt-2 m-md-0 flex-column align-items-center">
