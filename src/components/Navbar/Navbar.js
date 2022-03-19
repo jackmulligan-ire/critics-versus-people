@@ -20,10 +20,10 @@ class SiteNavbar extends React.Component {
         return (
             <Navbar className="border-bottom justify-content-between" variant="dark">
                 <Button 
-                className="navbar-brand cvv-site-button ms-2 ms-xl-3 me-1"
+                className="navbar-brand ms-2 ms-xl-3 me-1"
                 onClick={this.handleSiteReset}>Critics vs. The People</Button>
                 <Nav className="justify-content-between w-100">
-                    <Button onClick={this.props.onModalChange} className="cvv-site-button">About</Button>
+                    <Button onClick={this.props.onModalChange}>About</Button>
                     <div className="d-none d-md-block mx-3 w-50">
                         <SearchBar onSearchQueryChange={this.props.onSearchQueryChange} />
                     </div>

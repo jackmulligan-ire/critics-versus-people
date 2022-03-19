@@ -18,7 +18,7 @@ class AboutModal extends React.Component {
                     <p>Additional data taken from IMDb and Amazon (posters) via OMDb (<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel='noreferrer'>CC BY-NC 4.0</a>).</p>
                 </Modal.Body>
                 <Modal.Footer>
-                    <Button className="cvv-site-button" onClick={this.props.onModalChange}>Close</Button>
+                    <Button onClick={this.props.onModalChange}>Close</Button>
                 </Modal.Footer>
             </Modal>
         )
