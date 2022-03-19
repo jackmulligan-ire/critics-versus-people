@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/critics-versus-people/static/css/main.67d3eb5c.css",
-    "main.js": "/critics-versus-people/static/js/main.f74b45b5.js",
+    "main.css": "/critics-versus-people/static/css/main.4079c2c4.css",
+    "main.js": "/critics-versus-people/static/js/main.3844ca43.js",
     "static/js/787.45cbd1ea.chunk.js": "/critics-versus-people/static/js/787.45cbd1ea.chunk.js",
     "static/media/white-spinner.gif": "/critics-versus-people/static/media/white-spinner.9cd8e1c0f7a1c14b06de.gif",
     "index.html": "/critics-versus-people/index.html",
-    "main.67d3eb5c.css.map": "/critics-versus-people/static/css/main.67d3eb5c.css.map",
-    "main.f74b45b5.js.map": "/critics-versus-people/static/js/main.f74b45b5.js.map",
+    "main.4079c2c4.css.map": "/critics-versus-people/static/css/main.4079c2c4.css.map",
+    "main.3844ca43.js.map": "/critics-versus-people/static/js/main.3844ca43.js.map",
     "787.45cbd1ea.chunk.js.map": "/critics-versus-people/static/js/787.45cbd1ea.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67d3eb5c.css",
-    "static/js/main.f74b45b5.js"
+    "static/css/main.4079c2c4.css",
+    "static/js/main.3844ca43.js"
   ]
 }
