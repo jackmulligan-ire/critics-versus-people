@@ -58,13 +58,6 @@ footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     min-height: 94vh;
 }
 
-@media (max-width: 900px) {
-    img {
-        height: 275px;
-        width: 225px;
-    }
-}
-
 @media (min-width: 1200px) {
     .review-box {
         height: 225px;
