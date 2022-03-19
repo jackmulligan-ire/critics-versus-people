@@ -15,4 +15,11 @@ $container-max-widths: (
 $input-focus-border-color: #FFF;
 $input-focus-box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%);
 
+//Text customisation
+$link-color: white;
+
+//Modal customisation
+$modal-content-bg: #000;
+$modal-content-border-color: #FFF;
+
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

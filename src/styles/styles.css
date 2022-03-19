@@ -24,15 +24,6 @@ footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     min-height: 88vh;
 }
 
-
-a, a:hover {
-    color: white;
-}
-
-.bold-text {
-    font-weight: 600;
-}
-
 #ratings-row {
     min-height: 30vh;
 }
@@ -57,11 +48,6 @@ a, a:hover {
     background-color: black;
     border-color: white;
     box-shadow: none;
-}
-
-.modal-content {
-    background-color: black;
-    border-color: white;
 }
 
 #plot-para {
