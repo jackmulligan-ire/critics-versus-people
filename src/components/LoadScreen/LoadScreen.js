@@ -54,7 +54,7 @@ class LoadScreen extends React.Component {
         return (
             <Container className="d-flex flex-column justify-content-center">
                 <Row className="justify-content-center">
-                    <img className="p-0" id="film-reel" alt="load spinner" src={loader} />
+                    <img className="p-0" id="spinner" alt="load spinner" src={loader} />
                     {this.getLoadPhrase(phraseSeed)}
                 </Row>
             </Container>
