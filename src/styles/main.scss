@@ -25,6 +25,7 @@ $modal-content-border-color: #FFF;
 //Body customisations
 $body-color: #FFF;
 $body-bg: #000;
-$input-placeholder-color: #FFF;
+$input-bg: $body-color;
+$input-color: black;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
