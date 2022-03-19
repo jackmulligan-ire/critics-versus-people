@@ -34,18 +34,6 @@ a, a:hover {
     box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%)
 }
 
-h1 {
-    font-size: 3.5rem;
-}
-
-h2 {
-    font-size: 2.5rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
 .bold-text {
     font-weight: 600;
 }

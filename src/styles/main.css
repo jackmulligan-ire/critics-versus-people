@@ -104,39 +104,19 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 }
 
 h1, .h1 {
-  font-size: calc(1.375rem + 1.5vw);
-}
-@media (min-width: 1200px) {
-  h1, .h1 {
-    font-size: 2.5rem;
-  }
+  font-size: 3.5rem;
 }
 
 h2, .h2 {
-  font-size: calc(1.325rem + 0.9vw);
-}
-@media (min-width: 1200px) {
-  h2, .h2 {
-    font-size: 2rem;
-  }
+  font-size: 2.5rem;
 }
 
 h3, .h3 {
-  font-size: calc(1.3rem + 0.6vw);
-}
-@media (min-width: 1200px) {
-  h3, .h3 {
-    font-size: 1.75rem;
-  }
+  font-size: 2rem;
 }
 
 h4, .h4 {
-  font-size: calc(1.275rem + 0.3vw);
-}
-@media (min-width: 1200px) {
-  h4, .h4 {
-    font-size: 1.5rem;
-  }
+  font-size: 1.5rem;
 }
 
 h5, .h5 {
@@ -399,13 +379,8 @@ legend {
   width: 100%;
   padding: 0;
   margin-bottom: 0.5rem;
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: 1.5rem;
   line-height: inherit;
-}
-@media (min-width: 1200px) {
-  legend {
-    font-size: 1.5rem;
-  }
 }
 legend + * {
   clear: left;
@@ -482,69 +457,39 @@ progress {
 }
 
 .display-1 {
-  font-size: calc(1.625rem + 4.5vw);
+  font-size: 5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-1 {
-    font-size: 5rem;
-  }
 }
 
 .display-2 {
-  font-size: calc(1.575rem + 3.9vw);
+  font-size: 4.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-2 {
-    font-size: 4.5rem;
-  }
 }
 
 .display-3 {
-  font-size: calc(1.525rem + 3.3vw);
+  font-size: 4rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-3 {
-    font-size: 4rem;
-  }
 }
 
 .display-4 {
-  font-size: calc(1.475rem + 2.7vw);
+  font-size: 3.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-4 {
-    font-size: 3.5rem;
-  }
 }
 
 .display-5 {
-  font-size: calc(1.425rem + 2.1vw);
+  font-size: 3rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-5 {
-    font-size: 3rem;
-  }
 }
 
 .display-6 {
-  font-size: calc(1.375rem + 1.5vw);
+  font-size: 2.5rem;
   font-weight: 300;
   line-height: 1.2;
-}
-@media (min-width: 1200px) {
-  .display-6 {
-    font-size: 2.5rem;
-  }
 }
 
 .list-unstyled {
@@ -7436,19 +7381,19 @@ textarea.form-control-lg {
 }
 
 .fs-1 {
-  font-size: calc(1.375rem + 1.5vw) !important;
+  font-size: 3.5rem !important;
 }
 
 .fs-2 {
-  font-size: calc(1.325rem + 0.9vw) !important;
+  font-size: 2.5rem !important;
 }
 
 .fs-3 {
-  font-size: calc(1.3rem + 0.6vw) !important;
+  font-size: 2rem !important;
 }
 
 .fs-4 {
-  font-size: calc(1.275rem + 0.3vw) !important;
+  font-size: 1.5rem !important;
 }
 
 .fs-5 {
@@ -11058,23 +11003,6 @@ textarea.form-control-lg {
 
   .text-xxl-center {
     text-align: center !important;
-  }
-}
-@media (min-width: 1200px) {
-  .fs-1 {
-    font-size: 2.5rem !important;
-  }
-
-  .fs-2 {
-    font-size: 2rem !important;
-  }
-
-  .fs-3 {
-    font-size: 1.75rem !important;
-  }
-
-  .fs-4 {
-    font-size: 1.5rem !important;
   }
 }
 @media print {
