@@ -2,6 +2,7 @@
     font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
+/* Element styles */
 body, #root, #content {
     min-height: 94vh;
 }
@@ -13,14 +14,6 @@ footer {
 
 footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     color: black
-}
-
-.container {
-    min-height: 88vh;
-}
-
-#ratings-row {
-    min-height: 30vh;
 }
 
 #poster {
@@ -49,10 +42,6 @@ footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     text-align: justify;
 }
 
-#initial-container {
-    min-height: 94vh;
-}
-
 @media (min-width: 1200px) {
     .review-box {
         height: 225px;
@@ -72,4 +61,17 @@ footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     #summary-content, #poster, .review-box {
         width: 250px;
     }
+}
+
+/* Grid styles */
+.container {
+    min-height: 88vh;
+}
+
+#ratings-row {
+    min-height: 30vh;
+}
+
+#initial-container {
+    min-height: 94vh;
 }
