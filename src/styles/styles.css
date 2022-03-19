@@ -25,18 +25,18 @@ footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
     width: 75px;
 }
 
-.cvv-site-button {
+.btn-primary {
     color: white;
     background-color: black;
     border-color: black;
 }
 
-.cvv-site-button:hover, .cvv-site-button:focus {
+.btn-primary:hover, .btn-primary:focus {
     color: white;
     background-color: black;
     border-color: white;
     box-shadow: none;
-}
+} */
 
 #plot-para {
     text-align: justify;
