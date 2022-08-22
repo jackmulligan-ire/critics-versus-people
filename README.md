@@ -178,7 +178,7 @@ Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https:
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thank you to (The Odin Project)[https://www.theodinproject.com/] for their fantastic resources on (learning React)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js] and (JavaScript testing)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript].
+* Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
