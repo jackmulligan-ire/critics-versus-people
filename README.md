@@ -83,22 +83,23 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<img src="readme-images/cvtp-desktop.png">
+
+<img src="readme-images/cvtp-mobile.png">
 
 Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jackmulligan-ire`, `critics-versus-people`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
 
+A web application that compares the aggregate score given by viewers and reviewers for a particular movie on the Open Movie Database.
+
+The application delivers a memorable user experience on top of a simple concept, with the application aiming to maximise time spent on site. It's designed to be immersive, with neon colours presented against a pitch-black background. It also has a sense of humour, with load spinners and the initial page view accompanied by randomly generated phrases.
+
+Aside from using the project to learn React, this was also the first project I developed using TDD. I built the application to be mobile-first, so I kept the shipped features as minimal as possible to provide an excellent experience on smaller screens.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 ### Built With
-
-* [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JavaScript][JavaScript]][JavaScript-url]
-* [![npm][npm]][npm-url]
-* [![Jest][Jest]][Jest-url]
-* [![React Testing Library][React Testing Library]][react-testing-library-url]
+<p float="left">
+[![React][React.js]][React-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JavaScript][JavaScript]][JavaScript-url] [![npm][npm]][npm-url] [![Jest][Jest]][Jest-url] [![React Testing Library][React Testing Library]][react-testing-library-url]
+</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
