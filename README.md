@@ -136,6 +136,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Add config.js file for OMDB API Key.
 - [ ] Convert codebase from JavaScript to TypeScript.
 - [ ] Increase testing coverage to mock the OMDb API.
 - [ ] Second page showing movies with biggest differences in their reviews.
