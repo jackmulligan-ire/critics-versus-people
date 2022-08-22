@@ -30,6 +30,8 @@
 <h3 align="center">Critics vs. The People</h3>
 
   <p align="center">
+    Compare critic and audience reviews for all your favourite movies!
+    <br />
     <a href="https://jackmulligan-ire.github.io/critics-versus-people/">Try it Out!</a>
     ·
     <a href="https://github.com/jackmulligan-ire/critics-versus-people/issues">Report Bug or Request a Feature</a>
