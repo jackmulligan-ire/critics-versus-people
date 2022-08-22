@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/jackmulligan-ire/critics-versus-people">
-    <img src="readme_images/ctvp-logo.png" alt="Critics vs. The People Logo" width="80" height="80">
+    <img src="readme-images/cvtp-logo.png" alt="Critics vs. The People Logo" width="600">
   </a>
 
 <h3 align="center">Critics vs. The People</h3>
