@@ -97,9 +97,12 @@ Aside from using the project to learn React, this was also the first project I d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Built With
-<p float="left">
-[![React][React.js]][React-url] [![Bootstrap][Bootstrap.com]][Bootstrap-url] [![JavaScript][JavaScript]][JavaScript-url] [![npm][npm]][npm-url] [![Jest][Jest]][Jest-url] [![React Testing Library][React Testing Library]][react-testing-library-url]
-</p>
+[![React][React.js]][React-url] 
+[![Bootstrap][Bootstrap.com]][Bootstrap-url] 
+[![JavaScript][JavaScript]][JavaScript-url] 
+[![npm][npm]][npm-url] 
+[![Jest][Jest]][Jest-url] 
+[![React Testing Library][React Testing Library]][react-testing-library-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
