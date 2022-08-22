@@ -75,8 +75,6 @@
   <img src="readme-images/cvtp-desktop.png" width="800">
 </p>
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `jackmulligan-ire`, `critics-versus-people`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 A web application that compares the aggregate score given by viewers and reviewers for a particular movie on the Open Movie Database.
 
 The application delivers a memorable user experience on top of a simple concept, with the application aiming to maximise time spent on site. It's designed to be immersive, with neon colours presented against a pitch-black background. It also has a sense of humour, with load spinners and the initial page view accompanied by randomly generated phrases. I kept the shipped features as minimal as possible to provide an excellent experience on smaller screens.
@@ -126,8 +124,6 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
@@ -136,8 +132,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
@@ -165,8 +159,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- LICENSE -->
 ## License
 
@@ -174,29 +166,21 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/e) - [Email](mailto:mulligja1@gmail.com)
 
 Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https://github.com/jackmulligan-ire/critics-versus-people)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
-* []()
-* []()
+* Thank you to (The Odin Project)[https://www.theodinproject.com/] for their fantastic resources on (learning React)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js] and (JavaScript testing)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript].
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
