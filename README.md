@@ -96,6 +96,7 @@ The application delivers a memorable user experience on top of a simple concept,
 Aside from using the project to learn React, this was also the first project I developed using TDD. I built the application to be mobile-first, so I kept the shipped features as minimal as possible to provide an excellent experience on smaller screens.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Built With
 
 [![React][React.js]][React-url] 
