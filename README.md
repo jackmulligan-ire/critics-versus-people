@@ -97,6 +97,7 @@ Aside from using the project to learn React, this was also the first project I d
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 ### Built With
+
 [![React][React.js]][React-url] 
 [![Bootstrap][Bootstrap.com]][Bootstrap-url] 
 [![JavaScript][JavaScript]][JavaScript-url] 
