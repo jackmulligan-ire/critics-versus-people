@@ -31,22 +31,15 @@
 <br />
 <div align="center">
   <a href="https://github.com/jackmulligan-ire/critics-versus-people">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="readme_images/ctvp-logo.png" alt="Critics vs. The People Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Critics vs. The People</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/jackmulligan-ire/critics-versus-people"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/jackmulligan-ire/critics-versus-people">View Demo</a>
+    <a href="https://jackmulligan-ire.github.io/critics-versus-people/">Try it Out!</a>
     ·
-    <a href="https://github.com/jackmulligan-ire/critics-versus-people/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/jackmulligan-ire/critics-versus-people/issues">Request Feature</a>
+    <a href="https://github.com/jackmulligan-ire/critics-versus-people/issues">Report Bug or Request a Feature</a>
   </p>
 </div>
 
