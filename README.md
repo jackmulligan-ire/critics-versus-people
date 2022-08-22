@@ -18,14 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
 
 <!-- PROJECT LOGO -->
 <br />
@@ -209,19 +202,8 @@ Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
-[contributors-url]: https://github.com/jackmulligan-ire/critics-versus-people/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
-[forks-url]: https://github.com/jackmulligan-ire/critics-versus-people/network/members
-[stars-shield]: https://img.shields.io/github/stars/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
-[stars-url]: https://github.com/jackmulligan-ire/critics-versus-people/stargazers
-[issues-shield]: https://img.shields.io/github/issues/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
-[issues-url]: https://github.com/jackmulligan-ire/critics-versus-people/issues
 [license-shield]: https://img.shields.io/github/license/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
 [license-url]: https://github.com/jackmulligan-ire/critics-versus-people/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/linkedin_username
-[product-screenshot]: images/screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
