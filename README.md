@@ -152,6 +152,7 @@ Two sources of error are accounted for: connection errors and gibberish search t
 <!-- ROADMAP -->
 ## Roadmap
 
+- [ ] Add config.js file for OMDB API Key.
 - [ ] Convert codebase from JavaScript to TypeScript.
 - [ ] Increase testing coverage to mock the OMDb API.
 - [ ] Second page showing movies with biggest differences in their reviews.
@@ -162,9 +163,7 @@ Two sources of error are accounted for: connection errors and gibberish search t
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+If you have a suggestion to improve Critics vs. The People, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
 Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
@@ -194,7 +193,7 @@ Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https:
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thank you to (The Odin Project)[https://www.theodinproject.com/] for their fantastic resources on (learning React)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js] and (JavaScript testing)[https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript].
+* Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
