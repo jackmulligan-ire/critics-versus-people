@@ -47,9 +47,9 @@
 
 A web application that compares the aggregate score given by viewers and reviewers for a particular movie on the Open Movie Database.
 
-The application delivers a memorable user experience on top of a simple concept, with the application aiming to maximise time spent on site. It's designed to be immersive, with neon colours presented against a pitch-black background. It also has a sense of humour, with load spinners and the initial page view accompanied by randomly generated phrases. I kept the shipped features as minimal as possible to provide an excellent experience on smaller screens.
+The application delivers a memorable user experience on top of a simple concept, with the application aiming to maximise time spent on site. It's designed to be immersive, with neon colours presented against a pitch-black background. It also has a sense of humour, with load spinners and the initial page view accompanied by randomly generated phrases. The functionality is kept to a minimum to provide an excellent experience on smaller screens.
 
-Aside from using the project to learn React, this was also the first project I developed using TDD, using jest as well as React Testing Library.
+Aside from using the project to learn React, this was also the first project I developed using TDD, using Jest as well as React Testing Library.
 
 ### Built With
 
@@ -89,7 +89,7 @@ Install npm on your machine.
     npm start
     ```
 
-Your local version of Critics vs. The People should now be available at localhost:3000. 
+Your local version of Critics vs. The People should now be available at localhost:3000 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -97,19 +97,19 @@ Your local version of Critics vs. The People should now be available at localhos
 ## Usage
 
 ### Movie Ratings
-The following information is provided for each movie: its Metacritic (“Critics”) and IMDB rating (“The People”), as well as a short description and its poster (if available). An IMDB link is also provided, with this opening up a new tab to not break the user’s visit on the site. Mobile-first design motivated the final feature selection, with features kept at a minimum to provide for a consistent experience cross-platform.
+The following information is provided for each movie: its Metacritic (“Critics”) and IMDB rating (“The People”), as well as a short description and its poster (if available). An IMDB link is also provided, with this opening up a new tab to not break the user’s visit on the site.
 
 ### Initial Screen
 <p align="center">
   <img src="readme-images/cvtp-initial-screen.png" alt="Critics vs. The People Initial Screen" width="600">
 </p>
-An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown on each page refresh.
+An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown each time.
 
 ### Responsiveness
 <p align="center">
   <img src="readme-images/cvtp-mobile-view.png" alt="Critics vs. The People Mobile View" height="600">
 </p>
-The application is made responsive through a mixture of container Bootstrap’s default logic and Sass files that set custom breakpoints for very small and very large screen sizes. 
+The application is made responsive through a mixture of Bootstrap’s default declaration and Sass files that set custom breakpoints for very small and very large screen sizes. 
 
 ### Load Spinner
 <p align="center">
@@ -121,7 +121,7 @@ All movie data is sourced from the Open Movie Database API, so it was necessary 
 <p align="center">
   <img src="readme-images/cvtp-conn-error.png" alt="Critics vs. The People Connection Error" width="600">
 </p>
-Two sources of error are accounted for: connection errors and gibberish search terms. An error screen is in-place for both scenarios, with a search bar in the site’s navbar allowing the user’s experience on the site to continue.
+Two sources of error are accounted for: connection errors and incorrect search terms. An error screen is in-place for both scenarios, with a search bar in the site’s navbar allowing the user’s experience on the site to continue.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,7 +130,7 @@ Two sources of error are accounted for: connection errors and gibberish search t
 
 - [ ] Convert codebase from JavaScript to TypeScript.
 - [ ] Increase testing coverage to mock the OMDb API.
-- [ ] Second page showing movies with biggest differences in their reviews.
+- [ ] Second page showing data on movies with biggest differences in critical and audience reviews.
 - [ ] Convert codebase to from React Class Components to Functional Components (Hooks).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -139,13 +139,14 @@ Two sources of error are accounted for: connection errors and gibberish search t
 ## Contributing
 
 If you have a suggestion to improve Critics vs. The People, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
+
+You can also feel free to log bugs under [Issues](https://github.com/jackmulligan-ire/critics-versus-people/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -161,14 +162,12 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email](mailto:mulligja1@gmail.com)
 
-Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https://github.com/jackmulligan-ire/critics-versus-people)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
+Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
