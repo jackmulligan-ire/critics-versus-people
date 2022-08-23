@@ -38,36 +38,6 @@
   </p>
 </div>
 
-
-
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -131,20 +101,27 @@ This is an example of how to list things you need to use the software and how to
 The following information is provided for each movie: its Metacritic (“Critics”) and IMDB rating (“The People”), as well as a short description and its poster (if available). An IMDB link is also provided, with this opening up a new tab to not break the user’s visit on the site. Mobile-first design motivated the final feature selection, with features kept at a minimum to provide for a consistent experience cross-platform.
 
 ### Initial Screen
-
-<img src="readme-images/cvtp-initial-screen.png" alt="Critics vs. The People Initial Screen" width="600">
+<p align="center">
+  <img src="readme-images/cvtp-initial-screen.png" alt="Critics vs. The People Initial Screen" width="600">
+</p>
 An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown on each page refresh.
 
 ### Responsiveness
-<img src="readme-images/cvtp-mobile-view.png" alt="Critics vs. The People Mobile View" width="600">
+<p align="center">
+  <img src="readme-images/cvtp-mobile-view.png" alt="Critics vs. The People Mobile View" height="600">
+</p>
 The application is made responsive through a mixture of container Bootstrap’s default logic and Sass files that set custom breakpoints for very small and very large screen sizes. 
 
 ### Load Spinner
-<img src="readme-images/cvtp-load-spinner.png" alt="Critics vs. The People Load Spinner" width="600">
+<p align="center">
+  <img src="readme-images/cvtp-load-spinner.png" alt="Critics vs. The People Load Spinner" width="600">
+</p>
 All movie data is sourced from the Open Movie Database API, so it was necessary to include some form of load spinner. To prevent the immersion in the app from becoming broken, a phrase is also placed under the spinner. Multiple of these phrases are available, with one being selected at random on each call to the API. A timeout of 1 second is included on the get request to the API, so that the load phrase remains visible just long enough to be read by the user.
 
 ### Error Handling
-<img src="readme-images/cvtp-conn-error.png" alt="Critics vs. The People Connection Error" width="600">
+<p align="center">
+  <img src="readme-images/cvtp-conn-error.png" alt="Critics vs. The People Connection Error" width="600">
+</p>
 Two sources of error are accounted for: connection errors and gibberish search terms. An error screen is in-place for both scenarios, with a search bar in the site’s navbar allowing the user’s experience on the site to continue.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -152,7 +129,6 @@ Two sources of error are accounted for: connection errors and gibberish search t
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Add config.js file for OMDB API Key.
 - [ ] Convert codebase from JavaScript to TypeScript.
 - [ ] Increase testing coverage to mock the OMDb API.
 - [ ] Second page showing movies with biggest differences in their reviews.
@@ -184,7 +160,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/e) - [Email](mailto:mulligja1@gmail.com)
+Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email](mailto:mulligja1@gmail.com)
 
 Project Link: [https://github.com/jackmulligan-ire/critics-versus-people](https://github.com/jackmulligan-ire/critics-versus-people)
 
