@@ -168,7 +168,7 @@ Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email]
 ## Acknowledgments
 
 - Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
-- Thank you to [Othniel Drew](https://github.com/othneildrew) for his [Best README template](https://github.com/othneildrew/Best-README-Template/).
+- Thank you to [Othneil Drew](https://github.com/othneildrew) for his [Best README template](https://github.com/othneildrew/Best-README-Template/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
