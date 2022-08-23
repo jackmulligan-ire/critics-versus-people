@@ -76,17 +76,15 @@ Install npm on your machine.
 
 ### Installation
 
-1. Get a free API Key at [OMDb API](https://www.omdbapi.com/apikey.aspx)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/jackmulligan-ire/critics-versus-people.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. 
-5. Launch the development server
+3. Launch the development server
     ```sh
     npm start
     ```
