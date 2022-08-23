@@ -127,9 +127,25 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+### Movie Ratings
+The following information is provided for each movie: its Metacritic (“Critics”) and IMDB rating (“The People”), as well as a short description and its poster (if available). An IMDB link is also provided, with this opening up a new tab to not break the user’s visit on the site. Mobile-first design motivated the final feature selection, with features kept at a minimum to provide for a consistent experience cross-platform.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+### Initial Screen
+
+<img src="readme-images/cvtp-initial-screen.png" alt="Critics vs. The People Initial Screen" width="600">
+An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown on each page refresh.
+
+### Responsiveness
+<img src="readme-images/cvtp-mobile-view.png" alt="Critics vs. The People Mobile View" width="600">
+The application is made responsive through a mixture of container Bootstrap’s default logic and Sass files that set custom breakpoints for very small and very large screen sizes. 
+
+### Load Spinner
+<img src="readme-images/cvtp-load-spinner.png" alt="Critics vs. The People Load Spinner" width="600">
+All movie data is sourced from the Open Movie Database API, so it was necessary to include some form of load spinner. To prevent the immersion in the app from becoming broken, a phrase is also placed under the spinner. Multiple of these phrases are available, with one being selected at random on each call to the API. A timeout of 1 second is included on the get request to the API, so that the load phrase remains visible just long enough to be read by the user.
+
+### Error Handling
+<img src="readme-images/cvtp-conn-error.png" alt="Critics vs. The People Connection Error" width="600">
+Two sources of error are accounted for: connection errors and gibberish search terms. An error screen is in-place for both scenarios, with a search bar in the site’s navbar allowing the user’s experience on the site to continue.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
