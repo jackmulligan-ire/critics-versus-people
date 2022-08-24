@@ -59,6 +59,7 @@ Aside from using the project to learn React, this was also the first project I d
 [![npm][npm]][npm-url] 
 [![Jest][Jest]][Jest-url] 
 [![React Testing Library][React Testing Library]][react-testing-library-url]
+[![Sass][Sass]][sass-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -168,7 +169,8 @@ Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email]
 ## Acknowledgements
 
 - Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
-- Thank you to [Othneil Drew](https://github.com/othneildrew) for his [Best README template](https://github.com/othneildrew/Best-README-Template/).
+- README template credit: [Best README template](https://github.com/othneildrew/Best-README-Template/)
+- Badges credit: [Badges 4 README.md Profile](https://github.com/alexandresanlim/Badges4-README.md-Profile)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,4 +189,6 @@ Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email]
 [jest]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
 [jest-url]: https://jestjs.io/
 [React Testing Library]: https://img.shields.io/badge/-Testing%20Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white
-[react-testing-library-url]: https://testing-library.com/
+[react-testing-library-url]: https://testing-library.com
+[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[sass-url]: https://sass-lang.com/
