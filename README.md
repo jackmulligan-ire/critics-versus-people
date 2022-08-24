@@ -102,7 +102,7 @@ The following information is provided for each movie: its Metacritic (“Critics
 
 ### Initial Screen
 <p align="center">
-  <img src="readme-images/cvtp-initial-screen.png" alt="Critics vs. The People Initial Screen" width="600">
+  <img src="readme-images/motto.gif" alt="Critics vs. The People Initial Screen" width="600">
 </p>
 An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown each time.
 
@@ -114,7 +114,7 @@ The application is made responsive through a mixture of Bootstrap’s default de
 
 ### Load Spinner
 <p align="center">
-  <img src="readme-images/cvtp-load-spinner.png" alt="Critics vs. The People Load Spinner" width="600">
+  <img src="readme-images/load-spinner.gif" alt="Critics vs. The People Load Spinner" width="600">
 </p>
 All movie data is sourced from the Open Movie Database API, so it was necessary to include some form of load spinner. To prevent the immersion in the app from becoming broken, a phrase is also placed under the spinner. Multiple of these phrases are available, with one being selected at random on each call to the API. A timeout of 1 second is included on the get request to the API, so that the load phrase remains visible just long enough to be read by the user.
 
