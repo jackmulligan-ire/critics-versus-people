@@ -13,12 +13,10 @@ const DUMMY_DATA = {
     "Poster": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
   };
 
-beforeEach(() => {
-    render(<MovieTitle title={DUMMY_DATA['title']} year={DUMMY_DATA['year']}/>)
-})
-
+const setUp = () => render(<MovieTitle title={DUMMY_DATA['title']} year={DUMMY_DATA['year']}/>);
 
 test('Dummy title renders', () => {
+    setUp();
     expect(screen.getByRole('heading', {
         name: /fight club \(1999\)/i
     })).toBeInTheDocument()

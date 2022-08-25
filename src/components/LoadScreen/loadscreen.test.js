@@ -1,11 +1,10 @@
 import { render, screen } from '@testing-library/react';
 import LoadScreen from './LoadScreen';
 
-beforeEach(() => {
-    render(<LoadScreen />)
-})
+const setUp = () => render(<LoadScreen />);
 
 test('Loadscreen phase loading on page', () => {
+    setUp();
     const loadPhrases = [
         "Counting number of thumbs currently up...",
         "Collecting tomato residue for analysis...",
