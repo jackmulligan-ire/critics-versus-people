@@ -1,19 +1,19 @@
 //BOOTSTRAP CUSTOMISATIONS
 //Headings customisation
 $h1-font-size: 3.5rem;
-$h2-font-size: 2.5rem ;
+$h2-font-size: 2.5rem;
 $h3-font-size: 2rem;
 $enable-rfs: false;
 
 //Containers customisation
 $container-max-widths: (
-    sm: 540px,
-    md: 960px,
-    xl: 1140px,
+  sm: 540px,
+  md: 960px,
+  xl: 1140px,
 );
 
 //Input customisation
-$input-focus-border-color: #FFF;
+$input-focus-border-color: #fff;
 $input-focus-box-shadow: 0 0 0 0.15rem rgb(255 255 255 / 20%);
 
 //Text customisation
@@ -21,10 +21,10 @@ $link-color: white;
 
 //Modal customisation
 $modal-content-bg: #000;
-$modal-content-border-color: #FFF;
+$modal-content-border-color: #fff;
 
 //Body customisations
-$body-color: #FFF;
+$body-color: #fff;
 $body-bg: #000;
 $input-bg: $body-color;
 $input-color: black;
@@ -33,79 +33,89 @@ $input-color: black;
 
 // CSS DECLARATIONS
 * {
-    font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+  font-family: "Courier New", SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", monospace;
 }
 
 /* Element styles */
-body, #root, #content {
-    min-height: 94vh;
+body,
+#root,
+#content {
+  min-height: 94vh;
 }
 
 footer {
-    background-color: white;
-    height: 7vh;
+  background-color: white;
+  height: 7vh;
 }
 
-footer > p, footer > p > a, footer > p > a:hover, .review-box > h2 {
-    color: black
+footer > p,
+footer > p > a,
+footer > p > a:hover,
+.review-box > h2 {
+  color: black;
 }
 
 #poster {
-    height: 350px;
+  height: 350px;
 }
 
 #spinner {
-    height: 75px;
-    width: 75px;
+  height: 75px;
+  width: 75px;
 }
 
 .btn-primary {
-    color: white;
-    background-color: black;
-    border-color: black;
+  color: white;
+  background-color: black;
+  border-color: black;
 }
 
-.btn-primary:hover, .btn-primary:focus {
-    color: white;
-    background-color: black;
-    border-color: white;
-    box-shadow: none;
+.btn-primary:hover,
+.btn-primary:focus {
+  color: white;
+  background-color: black;
+  border-color: white;
+  box-shadow: none;
 }
 
 #plot-para {
-    text-align: justify;
+  text-align: justify;
 }
 
 @media (min-width: 1200px) {
-    .review-box {
-        height: 225px;
-    }
+  .review-box {
+    height: 225px;
+  }
 
-    #summary-content, #poster, .review-box {
-        width: 275px;
-    }
-    
+  #summary-content,
+  #poster,
+  .review-box {
+    width: 275px;
+  }
 }
 
 @media (max-width: 1200px) {
-    .review-box {
-        height: 200px;
-    }
+  .review-box {
+    height: 200px;
+  }
 
-    #summary-content, #poster, .review-box {
-        width: 250px;
-    }
+  #summary-content,
+  #poster,
+  .review-box {
+    width: 250px;
+  }
 }
 
 /* Grid styles */
 .container {
-    min-height: 88vh;
+  min-height: 88vh;
 }
 
 #ratings-row {
-    min-height: 30vh;
+  min-height: 30vh;
 }
 
 #initial-container {
-    min-height: 94vh;
+  min-height: 94vh;
 }

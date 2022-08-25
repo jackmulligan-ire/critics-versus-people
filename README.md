@@ -1,5 +1,7 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
+
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
 *** that would make this better, please fork the repo and create a pull request
@@ -7,8 +9,6 @@
 *** Don't forget to give the project a star!
 *** Thanks again! Now go create something AMAZING! :D
 -->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -18,6 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![MIT License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
@@ -39,6 +40,7 @@
 </div>
 
 <!-- ABOUT THE PROJECT -->
+
 ## About The Project
 
 <p align="center">
@@ -53,17 +55,18 @@ Aside from using the project to learn React, this was also the first project I d
 
 ### Built With
 
-[![JavaScript][JavaScript]][JavaScript-url] 
-[![React][React.js]][React-url] 
-[![Bootstrap][Bootstrap.com]][Bootstrap-url] 
-[![npm][npm]][npm-url] 
-[![Jest][Jest]][Jest-url] 
-[![React Testing Library][React Testing Library]][react-testing-library-url]
-[![Sass][Sass]][sass-url]
+[![JavaScript][javascript]][javascript-url]
+[![React][react.js]][react-url]
+[![Bootstrap][bootstrap.com]][bootstrap-url]
+[![npm][npm]][npm-url]
+[![Jest][jest]][jest-url]
+[![React Testing Library][react testing library]][react-testing-library-url]
+[![Sass][sass]][sass-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
+
 ## Getting Started
 
 To get a local copy of Critics vs. The People up and running, follow these simple steps.
@@ -71,9 +74,10 @@ To get a local copy of Critics vs. The People up and running, follow these simpl
 ### Prerequisites
 
 Install npm on your machine.
-  ```sh
-  npm install npm@latest -g
-  ```
+
+```sh
+npm install npm@latest -g
+```
 
 ### Installation
 
@@ -86,39 +90,45 @@ Install npm on your machine.
    npm install
    ```
 3. Launch the development server
-    ```sh
-    npm start
-    ```
+   ```sh
+   npm start
+   ```
 
-Your local version of Critics vs. The People should now be available at localhost:3000 
+Your local version of Critics vs. The People should now be available at localhost:3000
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
+
 ## Usage
 
 ### Movie Ratings
+
 The following information is provided for each movie: its Metacritic (“Critics”) and IMDB rating (“The People”), as well as a short description and its poster (if available). An IMDB link is also provided, with this opening up a new tab to not break the user’s visit on the site.
 
 ### Initial Screen
+
 <p align="center">
   <img src="readme-images/motto.gif" alt="Critics vs. The People Initial Screen">
 </p>
 An initial screen hints at the concept of the website, with a motto pitting critic and viewer opinion against one another. Many of these phrases are available, with a random number generator determining which one is shown each time.
 
 ### Responsiveness
+
 <p align="center">
   <img src="readme-images/cvtp-mobile-view.png" alt="Critics vs. The People Mobile View" height="600">
 </p>
-The application is made responsive through a mixture of Bootstrap’s default declaration and Sass files that set custom breakpoints for very small and very large screen sizes. 
+The application is made responsive through a mixture of Bootstrap’s default declaration and Sass files that set custom breakpoints for very small and very large screen sizes.
 
 ### Load Spinner
+
 <p align="center">
   <img src="readme-images/load-spinner.gif" alt="Critics vs. The People Load Spinner">
 </p>
 All movie data is sourced from the Open Movie Database API, so it was necessary to include some form of load spinner. To prevent the immersion in the app from becoming broken, a phrase is also placed under the spinner. Multiple of these phrases are available, with one being selected at random on each call to the API. A timeout of 1 second is included on the get request to the API, so that the load phrase remains visible just long enough to be read by the user.
 
 ### Error Handling
+
 <p align="center">
   <img src="readme-images/cvtp-conn-error.png" alt="Critics vs. The People Connection Error" width="600">
 </p>
@@ -127,6 +137,7 @@ Two sources of error are accounted for: connection errors and incorrect search t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
 - [ ] Convert codebase from JavaScript to TypeScript.
@@ -137,6 +148,7 @@ Two sources of error are accounted for: connection errors and incorrect search t
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
+
 ## Contributing
 
 If you have a suggestion to improve Critics vs. The People, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
@@ -152,6 +164,7 @@ You can also feel free to log bugs under [Issues](https://github.com/jackmulliga
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
+
 ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
@@ -159,6 +172,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
+
 ## Contact
 
 Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email](mailto:mulligja1@gmail.com)
@@ -166,6 +180,7 @@ Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
+
 ## Acknowledgements
 
 - Thank you to [The Odin Project](https://www.theodinproject.com/) for their fantastic resources on [learning React](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#react-js) and [JavaScript testing](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript#testing-javascript).
@@ -176,19 +191,20 @@ Jack Mulligan - [LinkedIn](https://www.linkedin.com/in/jack-mulligan/) - [Email]
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [license-shield]: https://img.shields.io/github/license/jackmulligan-ire/critics-versus-people.svg?style=for-the-badge
 [license-url]: https://github.com/jackmulligan-ire/critics-versus-people/blob/main/license.txt
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JavaScript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
-[JavaScript-url]: https://www.javascript.com/
+[react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[react-url]: https://reactjs.org/
+[bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
+[bootstrap-url]: https://getbootstrap.com
+[javascript]: https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[javascript-url]: https://www.javascript.com/
 [npm]: https://img.shields.io/badge/NPM-%23000000.svg?style=for-the-badge&logo=npm&logoColor=white
 [npm-url]: https://www.npmjs.com/
 [jest]: https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white
 [jest-url]: https://jestjs.io/
-[React Testing Library]: https://img.shields.io/badge/-Testing%20Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white
+[react testing library]: https://img.shields.io/badge/-Testing%20Library-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white
 [react-testing-library-url]: https://testing-library.com
-[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
+[sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [sass-url]: https://sass-lang.com/
